@@ -1,0 +1,31 @@
+.profile-card {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .profile-header {
+    margin-bottom: 1rem;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .username {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #212529;
+  }
+  
+  .bio {
+    font-size: 1rem;
+    color: #555;
+  }
+  

@@ -1,0 +1,63 @@
+.type-card {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, 
+    box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .type-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .type-icon {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 0.5rem;
+  }
+  
+  .type-card.fire { background-color: #fddfdf; }
+  .type-card.water { background-color: #ddf3f5; }
+  .type-card.grass { background-color: #defde0; }
+  .type-card.electric { background-color: #fcf7de; }
+  .type-card.ghost { background-color: #e3b5e7; }
+  .type-card.rock { background-color: #e4d9b8; }
+  .type-card.bug { background-color: #f9f9b8; }
+  .type-card.flying { background-color: #dbe8f6; }
+  .type-card.poison { background-color: #e6a4b8; }
+  .type-card.ground { background-color: #e6c8a7; }
+  .type-card.steel { background-color: #e6e6e6; }
+  .type-card.psychic { background-color: #f5c2e1; }
+  .type-card.ice { background-color: #cce4f4; }
+  .type-card.dragon { background-color: #b8c7f8; }
+  .type-card.dark { background-color: #6b6b6b; }
+  .type-card.fairy { background-color: #f5c9e0; }
+  .type-card.normal { background-color: #f8f5f5; }
+  .type-card.fighting { background-color: #e6bba4; }
+  .type-card.stellar { background-color: #f4f4f4; }
+  .type-card.unknown { background-color: #d9d9d9; }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .container {
+    margin-top: 2rem;
+  }
+  
+  h1 {
+    color: #212529;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
